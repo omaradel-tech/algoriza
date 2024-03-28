@@ -21,11 +21,6 @@
             "omaradel\\Algoriza\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "omaradel\\Algoriza\\Tests\\": "tests/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
