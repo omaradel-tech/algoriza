@@ -1,6 +1,7 @@
 {
     "name": "omaradel/algoriza",
     "description": "An general Package.",
+    "license": "Algoriza",
     "authors": [
         {
             "name": "Omar Adel",
