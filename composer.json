@@ -1,11 +1,36 @@
 {
     "name": "omaradel/algoriza",
-    "description": "package with multi tasks",
+    "description": "An general Package.",
     "authors": [
         {
-            "name": "omaradel-tech",
+            "name": "Omar Adel",
             "email": "omar.adel.omar818@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "php": "^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "omaradel\\Algoriza\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "omaradel\\Algoriza\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "omaradel\\Algoriza\\AlgorizaBaseServiceProvider"
+            ]
+        }
+    }
 }
