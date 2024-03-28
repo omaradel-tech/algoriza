@@ -9,9 +9,10 @@
         }
     ],
     "require": {
-        "erusev/parsedown": "^1.7",
-        "php": "^8.0",
-        "ext-json": "*"
+        "php": "^7.2|^8.0",
+        "illuminate/console": "^6.0|^7.0|~8.0|^9.0|^10.0",
+        "illuminate/filesystem": "^6.0|^7.0|~8.0|^9.0|^10.0",
+        "laravel/tinker": "^2.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.7",
