@@ -1,0 +1,11 @@
+{
+    "name": "omaradel/algoriza",
+    "description": "package with multi tasks",
+    "authors": [
+        {
+            "name": "omaradel-tech",
+            "email": "omar.adel.omar818@gmail.com"
+        }
+    ],
+    "require": {}
+}
