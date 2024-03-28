@@ -1,6 +1,7 @@
 {
     "name": "omaradel/algoriza",
-    "description": "An general Package.",
+    "description": "Algoriza Package for general Purpose.",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -25,5 +26,6 @@
                 "omaradel\\Algoriza\\AlgorizaBaseServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
